@@ -1,3 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
 
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.l-main-header {
+  min-height: 100vh;
+  background-color: #333;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/hrz-5.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+@media (max-width: 900px) {
+  .l-main-header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+}
+
+.l-title-group {
+  max-width: 450px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px;
+}
+.l-title-group span {
+  display: block;
+}
+@media (max-width: 900px) {
+  .l-title-group {
+    min-height: 100vh;
+    justify-content: center;
+    padding: 50px;
+  }
+}
+
+.l-section-event-form {
+  background-color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+@media (max-width: 900px) {
+  .l-section-event-form {
+    width: 100%;
+  }
+}
+
+.l-form {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  gap: 10px;
+}
+.l-form__title {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.l-form label {
+  display: flex;
+  flex-direction: column;
+}
+.l-form span {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+.l-form input, .l-form select {
+  font-size: 1.1rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #333;
+  color: #333;
+}
+.l-form button {
+  margin-top: 10px;
+}
+
+.c-title {
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+.c-subtitle {
+  font-size: 1.8rem;
+}
+
+.c-intertitle {
+  font-size: 1.3rem;
+}
+
+.c-button {
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.--uppercase {
+  text-transform: uppercase !important;
+}
+
+.--color-emphasis {
+  color: #ff007b !important;
+}
+
+.--button-emphasis {
+  background-color: #ff007b !important;
+}
+.--button-emphasis:hover {
+  background-color: #cc0062 !important;
+}
+
+.--weight-lighter {
+  font-weight: lighter !important;
+}
+
+.--weight-bolder {
+  font-weight: bolder !important;
+}
 
 /*# sourceMappingURL=main.css.map */

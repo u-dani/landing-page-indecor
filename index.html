@@ -4,12 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>In Decor</title>
+    <title>InDecor</title>
 
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/main.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     
+    <header class="l-main-header">
+        <hgroup class="l-title-group">
+            <h1 class="c-title --color-emphasis">InDecor</h1>
+            <h2 class="c-subtitle --uppercase">Um evento para revolucionar a sua criatividade</h2>
+            <h3 class="c-intertitle">
+                <span class="--weight-lighter">Data do evento:</span>
+                <span class="--color-emphasis">Domingo, 28 de Maio, a partir das 14h</span>
+            </h3>
+        </hgroup>
+        <section class="l-section-event-form">
+            <form class="l-form">
+                <h1 class="l-form__title">Preencha o formulário para receber os detalhes do evento</h1>
+                <label for="iname">
+                    <span>Nome</span>
+                    <input type="text" id="iname" />
+                </label>
+                <label for="iemail">
+                    <span>Email</span>
+                    <input type="email" id="iemail" />
+                </label>
+                <label for="itelephone">
+                    <span>Telefone</span>
+                    <input type="tel" id="itelephone" />
+                </label>
+                <label for="imain-interest">
+                    <span>Principal interesse</span>
+                    <select id="imain-interest">
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="apartments">Apartamentos</option>
+                        <option value="houses">Casas</option>
+                        <option value="gardens">Jardins</option>
+                        <option value="others">Outro</option>
+                    </select>
+                </label>
+                <button type="submit" class="c-button --button-emphasis">Quero me inscrever</button>
+            </form>
+        </section>
+    </header>
 </body>
 </html>

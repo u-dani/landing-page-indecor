@@ -1,0 +1,22 @@
+
+@use 'variables' as *;
+
+.c-title {
+    font-size: $font-size-title;
+    font-weight: bolder;
+}
+
+.c-subtitle {
+    font-size: $font-size-subtitle;
+}
+
+.c-intertitle {
+    font-size: $font-size-intertitle;
+}
+
+.c-button {
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    padding: .5rem;
+}

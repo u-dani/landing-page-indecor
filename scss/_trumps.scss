@@ -1,0 +1,25 @@
+
+@use 'variables' as *;
+
+.--uppercase {
+   text-transform: uppercase !important; 
+}
+
+.--color-emphasis {
+    color: $color-emphasis !important;
+}
+
+.--button-emphasis {
+    background-color: $color-emphasis !important;
+    &:hover {
+        background-color: darken($color-emphasis, 10) !important;
+    }
+}
+
+.--weight-lighter {
+    font-weight: lighter !important;
+}
+
+.--weight-bolder {
+    font-weight: bolder !important;
+}
