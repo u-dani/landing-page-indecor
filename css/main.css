@@ -96,6 +96,52 @@ button {
   margin-top: 10px;
 }
 
+.l-section-details {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 100px 0px;
+}
+.l-section-details .content {
+  max-width: 400px;
+  gap: 20px;
+}
+@media (max-width: 900px) {
+  .l-section-details .content {
+    max-width: 80%;
+  }
+}
+.l-section-details .image {
+  width: 450px;
+  height: 250px;
+}
+@media (max-width: 900px) {
+  .l-section-details .image {
+    width: 80%;
+    height: auto;
+    margin-top: 80px;
+  }
+}
+.l-section-details .section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.l-section-details .section--reverse {
+  flex-direction: row-reverse;
+}
+@media (max-width: 900px) {
+  .l-section-details .section {
+    flex-direction: column;
+  }
+}
+.l-section-details .list {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
 .c-title {
   font-size: 3rem;
   font-weight: bolder;
