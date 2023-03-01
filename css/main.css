@@ -116,6 +116,39 @@ button {
   padding: 0.5rem;
 }
 
+.c-section-cards .title {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 100px 50px;
+}
+.c-section-cards .container-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  justify-content: center;
+  gap: 80px;
+  padding: 80px 50px;
+}
+.c-section-cards .card__image {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+.c-section-cards .card__image--first {
+  background-image: url("../images/sqr-1.jpg");
+}
+.c-section-cards .card__image--second {
+  background-image: url("../images/sqr-2.jpg");
+}
+.c-section-cards .card__image--third {
+  background-image: url("../images/sqr-3.jpg");
+}
+.c-section-cards .card__description {
+  margin-top: 20px;
+  text-align: center;
+}
+
 .--uppercase {
   text-transform: uppercase !important;
 }

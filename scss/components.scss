@@ -6,17 +6,67 @@
     font-weight: bolder;
 }
 
+
 .c-subtitle {
     font-size: $font-size-subtitle;
 }
 
+
 .c-intertitle {
     font-size: $font-size-intertitle;
 }
+
 
 .c-button {
     color: white;
     font-size: 1.1rem;
     border-radius: 10px;
     padding: .5rem;
+}
+
+
+.c-section-cards {
+
+    .title {
+        background-color: $primary-bgcolor;
+        color: white;
+        text-align: center;
+        padding: 100px 50px;
+    }
+
+    .container-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, $card-grid-width);
+        justify-content: center;
+        gap: 80px;
+        padding: 80px 50px;
+    }
+
+    .card {
+        &__image {
+            aspect-ratio: 1/1;
+            border-radius: 50%;
+            background: {
+                position: center;
+                size: cover;
+            }
+
+            &--first {
+                background-image: url('../images/sqr-1.jpg');
+            }
+
+            &--second {
+                background-image: url('../images/sqr-2.jpg');
+            }
+
+            &--third {
+                background-image: url('../images/sqr-3.jpg');
+            }
+        }
+
+        &__description {
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
 }
