@@ -123,11 +123,15 @@ button {
   padding: 100px 50px;
 }
 .c-section-cards .container-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 250px);
+  display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 80px;
   padding: 80px 50px;
+}
+.c-section-cards .card {
+  max-width: 250px;
+  min-width: 200px;
 }
 .c-section-cards .card__image {
   aspect-ratio: 1/1;

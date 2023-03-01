@@ -35,14 +35,17 @@
     }
 
     .container-cards {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, $card-grid-width);
+        display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 80px;
         padding: 80px 50px;
     }
 
     .card {
+        max-width: $card-max-width;
+        min-width: $card-min-width;
+
         &__image {
             aspect-ratio: 1/1;
             border-radius: 50%;
