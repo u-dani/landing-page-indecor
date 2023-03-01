@@ -31,7 +31,7 @@
         background-color: $primary-bgcolor;
         color: white;
         text-align: center;
-        padding: 100px 50px;
+        padding: 80px 50px;
     }
 
     .container-cards {
@@ -70,6 +70,71 @@
         &__description {
             margin-top: 20px;
             text-align: center;
+        }
+    }
+}
+
+
+.c-section-location {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 20px;
+    gap: 20px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: {
+        color: $primary-bgcolor;
+        image: linear-gradient(180deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../images/hrz-1.jpg');
+        position: center;
+        size: cover;
+    };
+
+    .content {
+        max-width: 400px;
+
+        .description {
+            margin-top: 20px;
+            font-size: 1.2rem;
+        }
+    }
+
+    .adress {
+        max-width: 400px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        &__icon {
+            width: 80px;
+            height: 80px;
+        }
+
+        &__details {
+            font-size: 1.3rem;
+            text-align: center;
+            font-weight: 500;
+            line-height: 2rem;
+        }
+    }
+
+    @media (max-width: 900px) {
+        flex-direction: column;
+        gap: 80px;
+        align-items: start;
+        padding: 80px 50px;
+
+        .content {
+            max-width: 500px;
+        }
+
+        .adress {
+            flex-direction: row-reverse;
+            max-width: 500px;
+            &__details {
+                text-align: start;
+            }
         }
     }
 }
