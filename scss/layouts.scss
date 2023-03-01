@@ -144,3 +144,22 @@
     }
 }
 
+
+.l-section-subscribe {
+    padding: 100px 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background: {
+        color: #333;
+        image: linear-gradient(180deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../images/hrz-6.jpg');
+        position: center;
+        size: cover;
+    };
+
+    .title {
+        font-weight: 500;
+    }
+}
