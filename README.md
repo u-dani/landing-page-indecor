@@ -1,6 +1,7 @@
 # Landing Page In Decor
 
 ### Github Pages
+https://u-dani.github.io/landing-page-indecor/
 
 ### Links
 
