@@ -1,8 +1,12 @@
 # Landing Page In Decor
+Uma Landing Page de divulgação do evento da InDecor.
 
-### Github Pages
+## 🌠 Demo
 https://u-dani.github.io/landing-page-indecor/
 
-### Links
+## 🛠 Tecnologias usadas
+ - HTML
+ - SASS
 
-favicon - <a href="https://www.flaticon.com/br/icones-gratis/flor" title="flor ícones">Flor ícones criados por Freepik - Flaticon</a>
+## Links dos Conteúdos
+ - Favicon - <a href="https://www.flaticon.com/br/icones-gratis/flor" title="flor ícones">Flor ícones criados por Freepik - Flaticon</a>
